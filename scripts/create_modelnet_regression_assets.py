@@ -102,7 +102,7 @@ def render_default(ax, points: np.ndarray, border: str):
         linewidths=0,
     )
     set_axis_style(ax, border)
-    ax.set_title("Default", fontsize=11, pad=4)
+    ax.set_title("Default", fontsize=14, pad=5)
 
 
 def render_top_corner(ax, points: np.ndarray, border: str):
@@ -119,7 +119,7 @@ def render_top_corner(ax, points: np.ndarray, border: str):
         linewidths=0,
     )
     set_axis_style(ax, border)
-    ax.set_title("Top corner", fontsize=11, pad=4)
+    ax.set_title("Top corner", fontsize=14, pad=5)
 
 
 def save_regression_gallery(run_dir: Path, data_dir: Path, output_path: Path):
@@ -159,13 +159,14 @@ def save_regression_gallery(run_dir: Path, data_dir: Path, output_path: Path):
         )
         ax_default.text(
             0.0,
-            1.24,
+            1.30,
             title,
             transform=ax_default.transAxes,
-            fontsize=12.5,
+            fontsize=18,
+            fontweight="bold",
             ha="left",
             va="bottom",
-            linespacing=1.25,
+            linespacing=1.15,
         )
 
     fig.suptitle(

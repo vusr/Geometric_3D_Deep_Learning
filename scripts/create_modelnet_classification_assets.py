@@ -169,7 +169,7 @@ def set_combined_axis_style(ax, correct: bool):
 def render_combined_default(ax, points: np.ndarray, correct: bool):
     ax.scatter(points[:, 0], points[:, 1], c=points[:, 2], cmap="viridis", s=3.2, alpha=0.9, linewidths=0)
     set_combined_axis_style(ax, correct)
-    ax.set_title("Default", fontsize=11, pad=4)
+    ax.set_title("Default", fontsize=14, pad=5)
 
 
 def render_combined_top_corner(ax, points: np.ndarray, correct: bool):
@@ -178,7 +178,7 @@ def render_combined_top_corner(ax, points: np.ndarray, correct: bool):
     xy = xy / max_abs
     ax.scatter(xy[:, 0], xy[:, 1], c=depth, cmap="viridis", s=3.2, alpha=0.9, linewidths=0)
     set_combined_axis_style(ax, correct)
-    ax.set_title("Top corner", fontsize=11, pad=4)
+    ax.set_title("Top corner", fontsize=14, pad=5)
 
 
 def save_combined_gallery(samples_path: Path, output_path: Path, run_dir: Path, data_dir: Path):
@@ -199,12 +199,14 @@ def save_combined_gallery(samples_path: Path, output_path: Path, run_dir: Path, 
         render_combined_top_corner(ax_top, points, correct)
         ax_default.text(
             0.0,
-            1.24,
-            f"GT: {row['ground_truth_name']} | Pred: {row['predicted_name']} ({status})",
+            1.30,
+            f"GT: {row['ground_truth_name']}\nPred: {row['predicted_name']} ({status})",
             transform=ax_default.transAxes,
-            fontsize=12.5,
+            fontsize=18,
+            fontweight="bold",
             ha="left",
             va="bottom",
+            linespacing=1.1,
         )
 
     fig.suptitle("ModelNet40 Sample Predictions - Default and Top-Corner Views", fontsize=19, fontweight="bold", y=0.985)

@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.env
+.venv/
+venv/
+env/
+
+# Large generated datasets
+data/raw/
+data/processed/
+data/modelnet_surface_bbox/processed/
+data/ModelNet40.zip
+
+# Local runtime noise
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Notebook checkpoints
+.ipynb_checkpoints/

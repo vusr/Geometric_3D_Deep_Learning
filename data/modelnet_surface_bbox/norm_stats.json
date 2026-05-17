@@ -1,0 +1,46 @@
+{
+  "target_names": [
+    "surface_area",
+    "bbox_volume"
+  ],
+  "input_scale_policy": "median train bbox_diag",
+  "global": {
+    "surface_area": {
+      "log_mean": 9.816084918627034,
+      "log_std": 2.83675371547682,
+      "raw_min": 0.0011164339957758784,
+      "raw_max": 198586160.0,
+      "n": 7747
+    },
+    "bbox_volume": {
+      "log_mean": 11.59909991955594,
+      "log_std": 4.3357839548445885,
+      "raw_min": 3.5712000681087375e-06,
+      "raw_max": 43951423488.0,
+      "n": 7747
+    },
+    "input_scale": 80.17491149902344,
+    "n": 7747
+  },
+  "clusters_enabled": false,
+  "clusters": {
+    "0": {
+      "surface_area": {
+        "log_mean": 9.816084918627034,
+        "log_std": 2.83675371547682,
+        "raw_min": 0.0011164339957758784,
+        "raw_max": 198586160.0,
+        "n": 7747
+      },
+      "bbox_volume": {
+        "log_mean": 11.59909991955594,
+        "log_std": 4.3357839548445885,
+        "raw_min": 3.5712000681087375e-06,
+        "raw_max": 43951423488.0,
+        "n": 7747
+      },
+      "input_scale": 80.17491149902344,
+      "n": 7747
+    }
+  }
+}

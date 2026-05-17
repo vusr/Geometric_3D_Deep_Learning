@@ -1,0 +1,27 @@
+name: gdl
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - scikit-learn
+  - tqdm
+  - matplotlib
+  - pip:
+      - torch==2.3.0
+      - torchvision==0.18.0
+      - torchaudio==2.3.0
+      - --extra-index-url https://download.pytorch.org/whl/cu121
+      - torch_geometric==2.5.3
+      - torch_scatter==2.1.2
+      - torch_sparse==0.6.18
+      - torch_cluster==1.6.3
+      - torch_spline_conv==1.2.2
+      - trimesh[easy]==4.3.2
+      - rtree
+      - open3d==0.18.0

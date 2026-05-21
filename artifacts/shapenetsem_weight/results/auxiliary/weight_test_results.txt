@@ -1,0 +1,16 @@
+SHAPENETSEM WEIGHT REGRESSION TEST RESULTS
+================================================================
+Checkpoint           : artifacts/shapenetsem_weight/checkpoints/auxiliary/best.pth
+Test set size        : 824
+Inputs               : xyz point cloud, class embedding, material priors
+Loss                 : SmoothL1Loss(beta=1.0) on normalized log1p weight
+
+[weight]
+  MAE  = 9.82373714
+  RMSE = 22.80537987
+  R2   = 0.89152053
+
+Throughput           : 246.44 samples/sec
+Latency              : 4.0577 ms/sample
+Timed samples        : 1272
+Timed duration (s)   : 5.1614

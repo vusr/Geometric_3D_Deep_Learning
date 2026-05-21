@@ -14,7 +14,7 @@ through physical relationships and would risk target leakage.
 
 ## 2. Final Result
 
-Final checkpoint: `checkpoints/shapenetsem_weight/auxiliary/best.pth`
+Final checkpoint: `artifacts/shapenetsem_weight/checkpoints/auxiliary/best.pth`
 
 | Target | MAE | RMSE | R2 |
 |---|---:|---:|---:|
@@ -73,18 +73,18 @@ class and auxiliary-material inputs fused into the regression head.
 
 | File | Contents |
 |---|---|
-| `results/shapenetsem_weight/auxiliary/weight_test_results.txt` | Human-readable test metrics |
-| `results/shapenetsem_weight/auxiliary/metrics.json` | Metrics and runtime metadata |
-| `results/shapenetsem_weight/auxiliary/weight_predictions.csv` | Sample-level true and predicted weight |
-| `logs/shapenetsem_weight/auxiliary/train_log.csv` | Epoch-level training and validation history |
-| `checkpoints/shapenetsem_weight/auxiliary/best.pth` | Best model checkpoint |
-| `data/shapenetsem_regression/weight_norm_stats.json` | Target, input, class, and auxiliary normalization statistics |
+| `artifacts/shapenetsem_weight/results/auxiliary/weight_test_results.txt` | Human-readable test metrics |
+| `artifacts/shapenetsem_weight/results/auxiliary/metrics.json` | Metrics and runtime metadata |
+| `artifacts/shapenetsem_weight/results/auxiliary/weight_predictions.csv` | Sample-level true and predicted weight |
+| `artifacts/shapenetsem_weight/logs/auxiliary/train_log.csv` | Epoch-level training and validation history |
+| `artifacts/shapenetsem_weight/checkpoints/auxiliary/best.pth` | Best model checkpoint |
+| `artifacts/shapenetsem_weight/data_metadata/weight_norm_stats.json` | Target, input, class, and auxiliary normalization statistics |
 
 ## 6. Visual Summary
 
 |   | Sample 1 | Sample 2 | Sample 3 | Sample 4 | Sample 5 |
 | --- | --- | --- | --- | --- | --- |
-| Sample | ![Rotating ShapeNetSem Table point cloud](../../assets/shapenetsem_weight/rotating_samples/sample_01_Table.gif) | ![Rotating ShapeNetSem Chair point cloud](../../assets/shapenetsem_weight/rotating_samples/sample_02_Chair.gif) | ![Rotating ShapeNetSem Vase point cloud](../../assets/shapenetsem_weight/rotating_samples/sample_03_Vase.gif) | ![Rotating ShapeNetSem Lamp point cloud](../../assets/shapenetsem_weight/rotating_samples/sample_04_Lamp.gif) | ![Rotating ShapeNetSem TV point cloud](../../assets/shapenetsem_weight/rotating_samples/sample_05_TV.gif) |
+| Sample | ![Rotating ShapeNetSem Table point cloud](../../artifacts/shapenetsem_weight/assets/rotating_samples/sample_01_Table.gif) | ![Rotating ShapeNetSem Chair point cloud](../../artifacts/shapenetsem_weight/assets/rotating_samples/sample_02_Chair.gif) | ![Rotating ShapeNetSem Vase point cloud](../../artifacts/shapenetsem_weight/assets/rotating_samples/sample_03_Vase.gif) | ![Rotating ShapeNetSem Lamp point cloud](../../artifacts/shapenetsem_weight/assets/rotating_samples/sample_04_Lamp.gif) | ![Rotating ShapeNetSem TV point cloud](../../artifacts/shapenetsem_weight/assets/rotating_samples/sample_05_TV.gif) |
 | Weight | Pred `6.617` kg<br>GT `6.616` kg | Pred `6.846` kg<br>GT `6.842` kg | Pred `11.01` kg<br>GT `11.05` kg | Pred `15.42` kg<br>GT `15.48` kg | Pred `24.25` kg<br>GT `24.12` kg |
 
 ## 7. Interpretation

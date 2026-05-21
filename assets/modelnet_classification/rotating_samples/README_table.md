@@ -1,4 +1,0 @@
-|   | Sample 1 | Sample 2 | Sample 3 | Sample 4 | Sample 5 |
-| --- | --- | --- | --- | --- | --- |
-| Sample | ![Rotating ModelNet40 chair point cloud](assets/modelnet_classification/rotating_samples/sample_01_chair.gif) | ![Rotating ModelNet40 airplane point cloud](assets/modelnet_classification/rotating_samples/sample_02_airplane.gif) | ![Rotating ModelNet40 toilet point cloud](assets/modelnet_classification/rotating_samples/sample_03_toilet.gif) | ![Rotating ModelNet40 bed point cloud](assets/modelnet_classification/rotating_samples/sample_04_bed.gif) | ![Rotating ModelNet40 piano point cloud](assets/modelnet_classification/rotating_samples/sample_05_piano.gif) |
-| Prediction | GT `chair`<br>Pred `chair` | GT `airplane`<br>Pred `airplane` | GT `toilet`<br>Pred `toilet` | GT `bed`<br>Pred `bed` | GT `piano`<br>Pred `mantel` |

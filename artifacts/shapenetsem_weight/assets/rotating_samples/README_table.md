@@ -1,0 +1,4 @@
+|   | Sample 1 | Sample 2 | Sample 3 | Sample 4 | Sample 5 |
+| --- | --- | --- | --- | --- | --- |
+| Sample | ![Rotating ShapeNetSem Table point cloud](artifacts/shapenetsem_weight/assets/rotating_samples/sample_01_Table.gif) | ![Rotating ShapeNetSem Chair point cloud](artifacts/shapenetsem_weight/assets/rotating_samples/sample_02_Chair.gif) | ![Rotating ShapeNetSem Vase point cloud](artifacts/shapenetsem_weight/assets/rotating_samples/sample_03_Vase.gif) | ![Rotating ShapeNetSem Lamp point cloud](artifacts/shapenetsem_weight/assets/rotating_samples/sample_04_Lamp.gif) | ![Rotating ShapeNetSem TV point cloud](artifacts/shapenetsem_weight/assets/rotating_samples/sample_05_TV.gif) |
+| Weight | Pred `6.617` kg<br>GT `6.616` kg | Pred `6.846` kg<br>GT `6.842` kg | Pred `11.01` kg<br>GT `11.05` kg | Pred `15.42` kg<br>GT `15.48` kg | Pred `24.25` kg<br>GT `24.12` kg |

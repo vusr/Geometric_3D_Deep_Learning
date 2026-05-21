@@ -1,4 +1,0 @@
-|   | Sample 1 | Sample 2 | Sample 3 | Sample 4 | Sample 5 |
-| --- | --- | --- | --- | --- | --- |
-| Sample | ![Rotating ModelNet40 car point cloud](assets/modelnet_regression/rotating_samples/sample_01_car.gif) | ![Rotating ModelNet40 table point cloud](assets/modelnet_regression/rotating_samples/sample_02_table.gif) | ![Rotating ModelNet40 glass_box point cloud](assets/modelnet_regression/rotating_samples/sample_03_glass_box.gif) | ![Rotating ModelNet40 vase point cloud](assets/modelnet_regression/rotating_samples/sample_04_vase.gif) | ![Rotating ModelNet40 guitar point cloud](assets/modelnet_regression/rotating_samples/sample_05_guitar.gif) |
-| Prediction | Surface `52.3K` vs `52.4K`<br>BBox vol `851.2K` vs `851.5K` | Surface `5.4K` vs `5.4K`<br>BBox vol `38.1K` vs `38.4K` | Surface `13.5K` vs `13.7K`<br>BBox vol `22.6K` vs `22.7K` | Surface `2.5K` vs `2.5K`<br>BBox vol `5.4K` vs `5.5K` | Surface `88.8K` vs `86.2K`<br>BBox vol `953.6K` vs `962.9K` |

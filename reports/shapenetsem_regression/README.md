@@ -14,7 +14,7 @@ measurement noise.
 
 ## 2. Final Result
 
-Final checkpoint: `checkpoints/shapenetsem_regression/global/best.pth`
+Final checkpoint: `artifacts/shapenetsem_regression/checkpoints/global/best.pth`
 
 | Target | MAE | RMSE | R2 |
 |---|---:|---:|---:|
@@ -63,18 +63,18 @@ Analysis artifacts:
 
 | File | Contents |
 |---|---|
-| `data/shapenetsem_regression/analysis_summary.json` | Outlier and split summary |
-| `data/shapenetsem_regression/outliers_removed.csv` | Samples removed by robust fences |
-| `data/shapenetsem_regression/norm_stats.json` | Input and target normalization statistics |
-| `data/shapenetsem_regression/splits.csv` | Final train/val/test manifest |
+| `artifacts/shapenetsem_regression/data_metadata/analysis_summary.json` | Outlier and split summary |
+| `artifacts/shapenetsem_regression/data_metadata/outliers_removed.csv` | Samples removed by robust fences |
+| `artifacts/shapenetsem_regression/data_metadata/norm_stats.json` | Input and target normalization statistics |
+| `artifacts/shapenetsem_regression/data_metadata/splits.csv` | Final train/val/test manifest |
 
 ### Target Distributions
 
-![Solid volume log histogram](../../data/shapenetsem_regression/analysis_plots/solidVolume_log_hist.png)
+![Solid volume log histogram](../../artifacts/shapenetsem_regression/data_metadata/analysis_plots/solidVolume_log_hist.png)
 
-![Surface volume log histogram](../../data/shapenetsem_regression/analysis_plots/surfaceVolume_log_hist.png)
+![Surface volume log histogram](../../artifacts/shapenetsem_regression/data_metadata/analysis_plots/surfaceVolume_log_hist.png)
 
-![Support surface area log histogram](../../data/shapenetsem_regression/analysis_plots/supportSurfaceArea_log_hist.png)
+![Support surface area log histogram](../../artifacts/shapenetsem_regression/data_metadata/analysis_plots/supportSurfaceArea_log_hist.png)
 
 ## 5. Model And Training
 
@@ -99,17 +99,17 @@ backbone family as the ModelNet experiments and a six-target regression head.
 
 | File | Contents |
 |---|---|
-| `results/shapenetsem_regression/global/reg_test_results.txt` | Human-readable test metrics |
-| `results/shapenetsem_regression/global/metrics.json` | Metrics and runtime metadata |
-| `results/shapenetsem_regression/global/reg_predictions.csv` | Sample-level true and predicted targets |
-| `logs/shapenetsem_regression/global/train_log.csv` | Epoch-level training and validation history |
-| `checkpoints/shapenetsem_regression/global/best.pth` | Best model checkpoint |
+| `artifacts/shapenetsem_regression/results/global/reg_test_results.txt` | Human-readable test metrics |
+| `artifacts/shapenetsem_regression/results/global/metrics.json` | Metrics and runtime metadata |
+| `artifacts/shapenetsem_regression/results/global/reg_predictions.csv` | Sample-level true and predicted targets |
+| `artifacts/shapenetsem_regression/logs/global/train_log.csv` | Epoch-level training and validation history |
+| `artifacts/shapenetsem_regression/checkpoints/global/best.pth` | Best model checkpoint |
 
 ## 7. Visual Summary
 
 |   | Sample 1 | Sample 2 | Sample 3 | Sample 4 | Sample 5 |
 | --- | --- | --- | --- | --- | --- |
-| Sample | ![Rotating ShapeNetSem Table point cloud](../../assets/shapenetsem_regression/rotating_samples/sample_01_Table.gif) | ![Rotating ShapeNetSem Chair point cloud](../../assets/shapenetsem_regression/rotating_samples/sample_02_Chair.gif) | ![Rotating ShapeNetSem TV point cloud](../../assets/shapenetsem_regression/rotating_samples/sample_03_TV.gif) | ![Rotating ShapeNetSem PottedPlant point cloud](../../assets/shapenetsem_regression/rotating_samples/sample_04_PottedPlant.gif) | ![Rotating ShapeNetSem Computer point cloud](../../assets/shapenetsem_regression/rotating_samples/sample_05_Computer.gif) |
+| Sample | ![Rotating ShapeNetSem Table point cloud](../../artifacts/shapenetsem_regression/assets/rotating_samples/sample_01_Table.gif) | ![Rotating ShapeNetSem Chair point cloud](../../artifacts/shapenetsem_regression/assets/rotating_samples/sample_02_Chair.gif) | ![Rotating ShapeNetSem TV point cloud](../../artifacts/shapenetsem_regression/assets/rotating_samples/sample_03_TV.gif) | ![Rotating ShapeNetSem PottedPlant point cloud](../../artifacts/shapenetsem_regression/assets/rotating_samples/sample_04_PottedPlant.gif) | ![Rotating ShapeNetSem Computer point cloud](../../artifacts/shapenetsem_regression/assets/rotating_samples/sample_05_Computer.gif) |
 | Solid volume | Pred `0.0696`<br>GT `0.0656` | Pred `0.0351`<br>GT `0.0379` | Pred `0.0238`<br>GT `0.0236` | Pred `0.0239`<br>GT `0.0240` | Pred `0.0627`<br>GT `0.0705` |
 | Surface volume | Pred `0.0077`<br>GT `0.0074` | Pred `0.0130`<br>GT `0.0132` | Pred `0.0091`<br>GT `0.0093` | Pred `0.0102`<br>GT `0.0110` | Pred `0.0043`<br>GT `0.0047` |
 | Support area | Pred `0.0110`<br>GT `0.0115` | Pred `0.0088`<br>GT `0.0097` | Pred `0.0635`<br>GT `0.0686` | Pred `0.0577`<br>GT `0.0613` | Pred `0.1300`<br>GT `0.1330` |

@@ -1,0 +1,57 @@
+{
+  "target_names": [
+    "solidVolume",
+    "surfaceVolume",
+    "supportSurfaceArea",
+    "aligned_dim_x",
+    "aligned_dim_y",
+    "aligned_dim_z"
+  ],
+  "input_scale_policy": "median train aligned bbox diagonal in meters; ShapeNetSem aligned.dims CSV values converted from cm to m",
+  "global": {
+    "n": 3436,
+    "solidVolume": {
+      "log_mean": 0.10335167611596821,
+      "log_std": 0.16895249083765868,
+      "raw_min": 3e-06,
+      "raw_max": 1.247864,
+      "n": 3436
+    },
+    "surfaceVolume": {
+      "log_mean": 0.029293151634809646,
+      "log_std": 0.04364606786795144,
+      "raw_min": 1e-06,
+      "raw_max": 0.267766,
+      "n": 3436
+    },
+    "supportSurfaceArea": {
+      "log_mean": 0.049916823503498145,
+      "log_std": 0.06990190901093357,
+      "raw_min": 2e-06,
+      "raw_max": 0.454159,
+      "n": 3436
+    },
+    "aligned_dim_x": {
+      "log_mean": 0.5271456303987538,
+      "log_std": 0.28713942837940365,
+      "raw_min": 0.0044512418,
+      "raw_max": 3.1791626,
+      "n": 3436
+    },
+    "aligned_dim_y": {
+      "log_mean": 0.5348250147772823,
+      "log_std": 0.24658273582203338,
+      "raw_min": 0.006634096000000001,
+      "raw_max": 4.7857028,
+      "n": 3436
+    },
+    "aligned_dim_z": {
+      "log_mean": 0.3962795091363746,
+      "log_std": 0.23996802244733798,
+      "raw_min": 1.1651967e-16,
+      "raw_max": 3.3134300000000003,
+      "n": 3436
+    },
+    "input_scale": 1.321244462914862
+  }
+}

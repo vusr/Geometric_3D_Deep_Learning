@@ -15,7 +15,15 @@ env/
 data/raw/
 data/processed/
 data/modelnet_surface_bbox/processed/
+data/shapenetsem_regression/raw/
+data/shapenetsem_regression/processed/
+checkpoints/shapenetsem_weight/aux/
+logs/shapenetsem_weight/aux/
+results/shapenetsem_weight/aux/
 data/ModelNet40.zip
+data/ShapeNetSem.zip
+hf_*_access_token.txt
+*.tgz
 
 # Local runtime noise
 *.log

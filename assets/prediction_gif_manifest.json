@@ -1,0 +1,9 @@
+{
+  "experiments": [
+    "modelnet_classification",
+    "modelnet_regression",
+    "shapenetsem_regression",
+    "shapenetsem_weight"
+  ],
+  "samples_per_experiment": 5
+}

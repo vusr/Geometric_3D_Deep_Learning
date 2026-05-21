@@ -1,0 +1,160 @@
+Started supplemental weight training at 2026-05-18T17:41:45+00:00
+/home/udays/miniconda3/envs/gdl/lib/python3.10/site-packages/torch_geometric/nn/models/mlp.py:102: UserWarning: Argument `batch_norm` is deprecated, please use `norm` to specify normalization layer.
+  warnings.warn("Argument `batch_norm` is deprecated, "
+Using device: cuda
+Train: 2480 | Val: 821 | classes=51 | aux_dim=22
+Model parameters: 1,762,657
+
+Starting weight training (max 120 epochs, patience=20, beta=1.0)
+Epoch   1/120 | train_huber=0.3583 | val_huber=0.0883 | R2=-0.2515 | MAE=18.4402 | lr=3.00e-04 | 29.2s
+  EarlyStopping: first checkpoint at epoch 1, metric=0.088331
+Epoch   2/120 | train_huber=0.2487 | val_huber=0.1551 | R2=-206.8275 | MAE=66.7423 | lr=3.00e-04 | 29.1s
+  EarlyStopping: no improvement for 1/20 epochs (best=0.088331 @ epoch 1)
+Epoch   3/120 | train_huber=0.1979 | val_huber=0.1318 | R2=-8.3275 | MAE=25.4625 | lr=3.00e-04 | 29.3s
+  EarlyStopping: no improvement for 2/20 epochs (best=0.088331 @ epoch 1)
+Epoch   4/120 | train_huber=0.1719 | val_huber=0.0547 | R2=0.8532 | MAE=12.9565 | lr=2.99e-04 | 29.2s
+  EarlyStopping: min metric improved from 0.088331 → 0.054748
+Epoch   5/120 | train_huber=0.1443 | val_huber=0.0573 | R2=0.7492 | MAE=12.4740 | lr=2.99e-04 | 29.2s
+  EarlyStopping: no improvement for 1/20 epochs (best=0.054748 @ epoch 4)
+Epoch   6/120 | train_huber=0.1431 | val_huber=0.0482 | R2=0.7361 | MAE=15.0558 | lr=2.98e-04 | 29.2s
+  EarlyStopping: min metric improved from 0.054748 → 0.048208
+Epoch   7/120 | train_huber=0.1231 | val_huber=0.0416 | R2=0.8174 | MAE=13.4532 | lr=2.98e-04 | 29.2s
+  EarlyStopping: min metric improved from 0.048208 → 0.041607
+Epoch   8/120 | train_huber=0.1340 | val_huber=0.0543 | R2=0.7645 | MAE=15.2438 | lr=2.97e-04 | 29.2s
+  EarlyStopping: no improvement for 1/20 epochs (best=0.041607 @ epoch 7)
+Epoch   9/120 | train_huber=0.1262 | val_huber=0.0644 | R2=0.2132 | MAE=21.1203 | lr=2.96e-04 | 29.3s
+  EarlyStopping: no improvement for 2/20 epochs (best=0.041607 @ epoch 7)
+Epoch  10/120 | train_huber=0.1249 | val_huber=0.0446 | R2=0.7619 | MAE=14.8726 | lr=2.95e-04 | 29.2s
+  EarlyStopping: no improvement for 3/20 epochs (best=0.041607 @ epoch 7)
+Epoch  11/120 | train_huber=0.1040 | val_huber=0.0507 | R2=-0.4758 | MAE=20.0291 | lr=2.94e-04 | 29.2s
+  EarlyStopping: no improvement for 4/20 epochs (best=0.041607 @ epoch 7)
+Epoch  12/120 | train_huber=0.1124 | val_huber=0.0562 | R2=0.7684 | MAE=15.5382 | lr=2.93e-04 | 29.2s
+  EarlyStopping: no improvement for 5/20 epochs (best=0.041607 @ epoch 7)
+Epoch  13/120 | train_huber=0.0988 | val_huber=0.0354 | R2=0.7523 | MAE=14.8323 | lr=2.92e-04 | 29.2s
+  EarlyStopping: min metric improved from 0.041607 → 0.035353
+Epoch  14/120 | train_huber=0.1019 | val_huber=0.0354 | R2=0.8437 | MAE=12.5623 | lr=2.90e-04 | 29.2s
+  EarlyStopping: no improvement for 1/20 epochs (best=0.035353 @ epoch 13)
+Epoch  15/120 | train_huber=0.1056 | val_huber=0.0475 | R2=0.7018 | MAE=16.8697 | lr=2.89e-04 | 29.3s
+  EarlyStopping: no improvement for 2/20 epochs (best=0.035353 @ epoch 13)
+Epoch  16/120 | train_huber=0.1024 | val_huber=0.0577 | R2=0.5827 | MAE=19.7902 | lr=2.87e-04 | 29.2s
+  EarlyStopping: no improvement for 3/20 epochs (best=0.035353 @ epoch 13)
+Epoch  17/120 | train_huber=0.0898 | val_huber=0.0521 | R2=0.7234 | MAE=16.3454 | lr=2.86e-04 | 29.3s
+  EarlyStopping: no improvement for 4/20 epochs (best=0.035353 @ epoch 13)
+Epoch  18/120 | train_huber=0.0908 | val_huber=0.0833 | R2=-0.5352 | MAE=22.0255 | lr=2.84e-04 | 29.3s
+  EarlyStopping: no improvement for 5/20 epochs (best=0.035353 @ epoch 13)
+Epoch  19/120 | train_huber=0.0855 | val_huber=0.0553 | R2=0.8174 | MAE=14.0569 | lr=2.82e-04 | 29.3s
+  EarlyStopping: no improvement for 6/20 epochs (best=0.035353 @ epoch 13)
+Epoch  20/120 | train_huber=0.0802 | val_huber=0.0592 | R2=0.8093 | MAE=13.9807 | lr=2.81e-04 | 29.3s
+  EarlyStopping: no improvement for 7/20 epochs (best=0.035353 @ epoch 13)
+Epoch  21/120 | train_huber=0.0778 | val_huber=0.0534 | R2=0.6419 | MAE=16.9713 | lr=2.79e-04 | 29.4s
+  EarlyStopping: no improvement for 8/20 epochs (best=0.035353 @ epoch 13)
+Epoch  22/120 | train_huber=0.0798 | val_huber=0.0391 | R2=0.8766 | MAE=11.2376 | lr=2.77e-04 | 29.3s
+  EarlyStopping: no improvement for 9/20 epochs (best=0.035353 @ epoch 13)
+Epoch  23/120 | train_huber=0.0736 | val_huber=0.0324 | R2=0.8335 | MAE=12.3523 | lr=2.74e-04 | 29.2s
+  EarlyStopping: min metric improved from 0.035353 → 0.032409
+Epoch  24/120 | train_huber=0.0673 | val_huber=0.0441 | R2=0.7763 | MAE=12.9806 | lr=2.72e-04 | 29.2s
+  EarlyStopping: no improvement for 1/20 epochs (best=0.032409 @ epoch 23)
+Epoch  25/120 | train_huber=0.0669 | val_huber=0.0387 | R2=0.6224 | MAE=13.1896 | lr=2.70e-04 | 29.2s
+  EarlyStopping: no improvement for 2/20 epochs (best=0.032409 @ epoch 23)
+Epoch  26/120 | train_huber=0.0663 | val_huber=0.0461 | R2=0.7038 | MAE=17.3106 | lr=2.68e-04 | 29.2s
+  EarlyStopping: no improvement for 3/20 epochs (best=0.032409 @ epoch 23)
+Epoch  27/120 | train_huber=0.0664 | val_huber=0.0379 | R2=0.7171 | MAE=14.6405 | lr=2.65e-04 | 29.2s
+  EarlyStopping: no improvement for 4/20 epochs (best=0.032409 @ epoch 23)
+Epoch  28/120 | train_huber=0.0703 | val_huber=0.0299 | R2=0.8853 | MAE=10.0573 | lr=2.63e-04 | 29.2s
+  EarlyStopping: min metric improved from 0.032409 → 0.029894
+Epoch  29/120 | train_huber=0.0624 | val_huber=0.0324 | R2=0.7735 | MAE=10.9379 | lr=2.60e-04 | 29.2s
+  EarlyStopping: no improvement for 1/20 epochs (best=0.029894 @ epoch 28)
+Epoch  30/120 | train_huber=0.0552 | val_huber=0.0306 | R2=0.6608 | MAE=11.1769 | lr=2.58e-04 | 29.2s
+  EarlyStopping: no improvement for 2/20 epochs (best=0.029894 @ epoch 28)
+Epoch  31/120 | train_huber=0.0626 | val_huber=0.0671 | R2=-0.3600 | MAE=22.4410 | lr=2.55e-04 | 29.2s
+  EarlyStopping: no improvement for 3/20 epochs (best=0.029894 @ epoch 28)
+Epoch  32/120 | train_huber=0.0606 | val_huber=0.0288 | R2=0.8242 | MAE=11.8452 | lr=2.52e-04 | 29.2s
+  EarlyStopping: min metric improved from 0.029894 → 0.028843
+Epoch  33/120 | train_huber=0.0569 | val_huber=0.0296 | R2=0.8590 | MAE=11.3238 | lr=2.49e-04 | 29.2s
+  EarlyStopping: no improvement for 1/20 epochs (best=0.028843 @ epoch 32)
+Epoch  34/120 | train_huber=0.0502 | val_huber=0.0307 | R2=0.7961 | MAE=13.5531 | lr=2.46e-04 | 29.3s
+  EarlyStopping: no improvement for 2/20 epochs (best=0.028843 @ epoch 32)
+Epoch  35/120 | train_huber=0.0537 | val_huber=0.0302 | R2=0.8432 | MAE=11.5220 | lr=2.43e-04 | 29.2s
+  EarlyStopping: no improvement for 3/20 epochs (best=0.028843 @ epoch 32)
+Epoch  36/120 | train_huber=0.0539 | val_huber=0.0432 | R2=0.7994 | MAE=14.8037 | lr=2.40e-04 | 29.2s
+  EarlyStopping: no improvement for 4/20 epochs (best=0.028843 @ epoch 32)
+Epoch  37/120 | train_huber=0.0502 | val_huber=0.0283 | R2=0.8817 | MAE=9.5034 | lr=2.37e-04 | 29.2s
+  EarlyStopping: min metric improved from 0.028843 → 0.028307
+Epoch  38/120 | train_huber=0.0442 | val_huber=0.0310 | R2=0.9226 | MAE=8.8924 | lr=2.34e-04 | 29.2s
+  EarlyStopping: no improvement for 1/20 epochs (best=0.028307 @ epoch 37)
+Epoch  39/120 | train_huber=0.0413 | val_huber=0.0445 | R2=0.7348 | MAE=14.8027 | lr=2.31e-04 | 29.2s
+  EarlyStopping: no improvement for 2/20 epochs (best=0.028307 @ epoch 37)
+Epoch  40/120 | train_huber=0.0448 | val_huber=0.0252 | R2=0.8234 | MAE=10.0362 | lr=2.27e-04 | 29.2s
+  EarlyStopping: min metric improved from 0.028307 → 0.025242
+Epoch  41/120 | train_huber=0.0421 | val_huber=0.0365 | R2=0.7501 | MAE=13.8286 | lr=2.24e-04 | 29.2s
+  EarlyStopping: no improvement for 1/20 epochs (best=0.025242 @ epoch 40)
+Epoch  42/120 | train_huber=0.0427 | val_huber=0.0436 | R2=0.8462 | MAE=12.4140 | lr=2.21e-04 | 29.2s
+  EarlyStopping: no improvement for 2/20 epochs (best=0.025242 @ epoch 40)
+Epoch  43/120 | train_huber=0.0425 | val_huber=0.0325 | R2=0.8301 | MAE=13.1999 | lr=2.17e-04 | 29.2s
+  EarlyStopping: no improvement for 3/20 epochs (best=0.025242 @ epoch 40)
+Epoch  44/120 | train_huber=0.0379 | val_huber=0.0288 | R2=0.9160 | MAE=9.3970 | lr=2.14e-04 | 29.2s
+  EarlyStopping: no improvement for 4/20 epochs (best=0.025242 @ epoch 40)
+Epoch  45/120 | train_huber=0.0392 | val_huber=0.0374 | R2=0.2426 | MAE=13.7075 | lr=2.10e-04 | 29.2s
+  EarlyStopping: no improvement for 5/20 epochs (best=0.025242 @ epoch 40)
+Epoch  46/120 | train_huber=0.0416 | val_huber=0.0409 | R2=0.7421 | MAE=15.2393 | lr=2.07e-04 | 29.2s
+  EarlyStopping: no improvement for 6/20 epochs (best=0.025242 @ epoch 40)
+Epoch  47/120 | train_huber=0.0393 | val_huber=0.0321 | R2=0.7566 | MAE=9.8093 | lr=2.03e-04 | 29.2s
+  EarlyStopping: no improvement for 7/20 epochs (best=0.025242 @ epoch 40)
+Epoch  48/120 | train_huber=0.0349 | val_huber=0.0359 | R2=0.8405 | MAE=12.5565 | lr=2.00e-04 | 29.2s
+  EarlyStopping: no improvement for 8/20 epochs (best=0.025242 @ epoch 40)
+Epoch  49/120 | train_huber=0.0377 | val_huber=0.0457 | R2=-15.2691 | MAE=23.2148 | lr=1.96e-04 | 29.2s
+  EarlyStopping: no improvement for 9/20 epochs (best=0.025242 @ epoch 40)
+Epoch  50/120 | train_huber=0.0356 | val_huber=0.0387 | R2=0.4950 | MAE=16.3617 | lr=1.93e-04 | 29.2s
+  EarlyStopping: no improvement for 10/20 epochs (best=0.025242 @ epoch 40)
+Epoch  51/120 | train_huber=0.0407 | val_huber=0.0397 | R2=0.7691 | MAE=15.4786 | lr=1.89e-04 | 29.2s
+  EarlyStopping: no improvement for 11/20 epochs (best=0.025242 @ epoch 40)
+Epoch  52/120 | train_huber=0.0391 | val_huber=0.0394 | R2=0.7436 | MAE=15.4713 | lr=1.85e-04 | 29.3s
+  EarlyStopping: no improvement for 12/20 epochs (best=0.025242 @ epoch 40)
+Epoch  53/120 | train_huber=0.0341 | val_huber=0.0201 | R2=0.8937 | MAE=9.6938 | lr=1.81e-04 | 29.2s
+  EarlyStopping: min metric improved from 0.025242 → 0.020121
+Epoch  54/120 | train_huber=0.0322 | val_huber=0.0218 | R2=0.9139 | MAE=9.1344 | lr=1.78e-04 | 29.2s
+  EarlyStopping: no improvement for 1/20 epochs (best=0.020121 @ epoch 53)
+Epoch  55/120 | train_huber=0.0328 | val_huber=0.0255 | R2=0.8424 | MAE=12.1787 | lr=1.74e-04 | 29.2s
+  EarlyStopping: no improvement for 2/20 epochs (best=0.020121 @ epoch 53)
+Epoch  56/120 | train_huber=0.0312 | val_huber=0.0248 | R2=0.8803 | MAE=10.5264 | lr=1.70e-04 | 29.3s
+  EarlyStopping: no improvement for 3/20 epochs (best=0.020121 @ epoch 53)
+Epoch  57/120 | train_huber=0.0337 | val_huber=0.0270 | R2=0.8707 | MAE=10.8533 | lr=1.66e-04 | 29.2s
+  EarlyStopping: no improvement for 4/20 epochs (best=0.020121 @ epoch 53)
+Epoch  58/120 | train_huber=0.0341 | val_huber=0.0576 | R2=0.7212 | MAE=17.3467 | lr=1.63e-04 | 29.2s
+  EarlyStopping: no improvement for 5/20 epochs (best=0.020121 @ epoch 53)
+Epoch  59/120 | train_huber=0.0328 | val_huber=0.0259 | R2=0.8947 | MAE=9.8556 | lr=1.59e-04 | 29.2s
+  EarlyStopping: no improvement for 6/20 epochs (best=0.020121 @ epoch 53)
+Epoch  60/120 | train_huber=0.0304 | val_huber=0.0224 | R2=0.9315 | MAE=8.3343 | lr=1.55e-04 | 29.2s
+  EarlyStopping: no improvement for 7/20 epochs (best=0.020121 @ epoch 53)
+Epoch  61/120 | train_huber=0.0294 | val_huber=0.0224 | R2=0.9033 | MAE=9.5593 | lr=1.51e-04 | 29.2s
+  EarlyStopping: no improvement for 8/20 epochs (best=0.020121 @ epoch 53)
+Epoch  62/120 | train_huber=0.0311 | val_huber=0.0250 | R2=0.9421 | MAE=8.7477 | lr=1.47e-04 | 29.2s
+  EarlyStopping: no improvement for 9/20 epochs (best=0.020121 @ epoch 53)
+Epoch  63/120 | train_huber=0.0283 | val_huber=0.0355 | R2=0.9021 | MAE=10.2328 | lr=1.44e-04 | 29.2s
+  EarlyStopping: no improvement for 10/20 epochs (best=0.020121 @ epoch 53)
+Epoch  64/120 | train_huber=0.0263 | val_huber=0.0253 | R2=0.8796 | MAE=10.7192 | lr=1.40e-04 | 29.2s
+  EarlyStopping: no improvement for 11/20 epochs (best=0.020121 @ epoch 53)
+Epoch  65/120 | train_huber=0.0264 | val_huber=0.0255 | R2=0.8391 | MAE=12.3217 | lr=1.36e-04 | 29.2s
+  EarlyStopping: no improvement for 12/20 epochs (best=0.020121 @ epoch 53)
+Epoch  66/120 | train_huber=0.0292 | val_huber=0.0291 | R2=0.8892 | MAE=10.8414 | lr=1.32e-04 | 29.2s
+  EarlyStopping: no improvement for 13/20 epochs (best=0.020121 @ epoch 53)
+Epoch  67/120 | train_huber=0.0267 | val_huber=0.0255 | R2=0.8691 | MAE=11.0693 | lr=1.29e-04 | 29.2s
+  EarlyStopping: no improvement for 14/20 epochs (best=0.020121 @ epoch 53)
+Epoch  68/120 | train_huber=0.0252 | val_huber=0.0258 | R2=0.8767 | MAE=10.8874 | lr=1.25e-04 | 29.2s
+  EarlyStopping: no improvement for 15/20 epochs (best=0.020121 @ epoch 53)
+Epoch  69/120 | train_huber=0.0280 | val_huber=0.0251 | R2=0.8776 | MAE=10.7442 | lr=1.21e-04 | 29.3s
+  EarlyStopping: no improvement for 16/20 epochs (best=0.020121 @ epoch 53)
+Epoch  70/120 | train_huber=0.0255 | val_huber=0.0220 | R2=0.9133 | MAE=8.9922 | lr=1.17e-04 | 29.2s
+  EarlyStopping: no improvement for 17/20 epochs (best=0.020121 @ epoch 53)
+Epoch  71/120 | train_huber=0.0236 | val_huber=0.0209 | R2=0.9009 | MAE=9.6549 | lr=1.14e-04 | 29.2s
+  EarlyStopping: no improvement for 18/20 epochs (best=0.020121 @ epoch 53)
+Epoch  72/120 | train_huber=0.0268 | val_huber=0.0351 | R2=0.8109 | MAE=14.2203 | lr=1.10e-04 | 29.2s
+  EarlyStopping: no improvement for 19/20 epochs (best=0.020121 @ epoch 53)
+Epoch  73/120 | train_huber=0.0258 | val_huber=0.0236 | R2=0.8844 | MAE=10.2315 | lr=1.07e-04 | 29.2s
+  EarlyStopping: no improvement for 20/20 epochs (best=0.020121 @ epoch 53)
+  EarlyStopping: stopping. Best epoch was 53 with metric=0.020121
+
+Training complete. Best epoch: 53, best val loss: 0.020121
+Checkpoint saved to: checkpoints/shapenetsem_weight/auxiliary/best.pth
+Training log saved to: logs/shapenetsem_weight/auxiliary/train_log.csv
+Supplemental weight training done at 2026-05-18T18:17:23+00:00

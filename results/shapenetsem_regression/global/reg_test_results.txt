@@ -1,0 +1,45 @@
+SHAPENETSEM GEOMETRY REGRESSION TEST RESULTS
+================================================================
+Checkpoint           : checkpoints/shapenetsem_regression/global/best.pth
+Test set size        : 1139
+Loss                 : SmoothL1Loss(beta=1.0) on normalized log1p targets
+
+[solidVolume]
+  MAE  = 0.02397911
+  RMSE = 0.05693544
+  R2   = 0.93869528
+
+[surfaceVolume]
+  MAE  = 0.00579655
+  RMSE = 0.01331403
+  R2   = 0.92284254
+
+[supportSurfaceArea]
+  MAE  = 0.01984044
+  RMSE = 0.04350309
+  R2   = 0.71609672
+
+[aligned_dim_x]
+  MAE  = 0.07620250
+  RMSE = 0.13084936
+  R2   = 0.93985781
+
+[aligned_dim_y]
+  MAE  = 0.04742233
+  RMSE = 0.12398881
+  R2   = 0.92295675
+
+[aligned_dim_z]
+  MAE  = 0.06880700
+  RMSE = 0.14818533
+  R2   = 0.85162500
+
+[mean across targets]
+  MAE  = 0.04034132
+  RMSE = 0.08612934
+  R2   = 0.88201235
+
+Throughput           : 252.70 samples/sec
+Latency              : 3.9576 ms/sample
+Timed samples        : 1267
+Timed duration (s)   : 5.0142

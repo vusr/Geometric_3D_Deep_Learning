@@ -1,0 +1,224 @@
+{
+  "target_name": "weight",
+  "target": {
+    "log_mean": 3.1108791739392987,
+    "log_std": 1.256891113339242,
+    "raw_min": 0.0477,
+    "raw_max": 673.655439759949,
+    "n": 2480
+  },
+  "input_scale": 1.5396024433110391,
+  "aux_columns": [
+    "aux_material_ratio_Brick",
+    "aux_material_ratio_Cardboard",
+    "aux_material_ratio_Carpet",
+    "aux_material_ratio_Ceramic",
+    "aux_material_ratio_Concrete",
+    "aux_material_ratio_Fabric",
+    "aux_material_ratio_Foliage",
+    "aux_material_ratio_Food",
+    "aux_material_ratio_Fur",
+    "aux_material_ratio_Glass",
+    "aux_material_ratio_Granite",
+    "aux_material_ratio_Leather",
+    "aux_material_ratio_Metal",
+    "aux_material_ratio_Paper",
+    "aux_material_ratio_Plastic",
+    "aux_material_ratio_Rubber",
+    "aux_material_ratio_Stone",
+    "aux_material_ratio_Wallpaper",
+    "aux_material_ratio_Wood",
+    "aux_material_density_mean",
+    "aux_material_friction_coeff_mean",
+    "aux_has_material_prior"
+  ],
+  "raw_aux_columns": [
+    "material_ratio_Brick",
+    "material_ratio_Cardboard",
+    "material_ratio_Carpet",
+    "material_ratio_Ceramic",
+    "material_ratio_Concrete",
+    "material_ratio_Fabric",
+    "material_ratio_Foliage",
+    "material_ratio_Food",
+    "material_ratio_Fur",
+    "material_ratio_Glass",
+    "material_ratio_Granite",
+    "material_ratio_Leather",
+    "material_ratio_Metal",
+    "material_ratio_Paper",
+    "material_ratio_Plastic",
+    "material_ratio_Rubber",
+    "material_ratio_Stone",
+    "material_ratio_Wallpaper",
+    "material_ratio_Wood",
+    "material_density_mean",
+    "material_friction_coeff_mean",
+    "has_material_prior"
+  ],
+  "aux_stats": {
+    "material_ratio_Brick": {
+      "mean": 0.0008825741402796843,
+      "std": 0.019000440574979724
+    },
+    "material_ratio_Cardboard": {
+      "mean": 9.256385089901545e-06,
+      "std": 4.4022892228260614e-05
+    },
+    "material_ratio_Carpet": {
+      "mean": 0.0,
+      "std": 1e-08
+    },
+    "material_ratio_Ceramic": {
+      "mean": 0.0798408534679586,
+      "std": 0.21830010026131655
+    },
+    "material_ratio_Concrete": {
+      "mean": 2.5012242766311472e-05,
+      "std": 0.00030480130970506893
+    },
+    "material_ratio_Fabric": {
+      "mean": 0.20670769205563216,
+      "std": 0.2641869807263898
+    },
+    "material_ratio_Foliage": {
+      "mean": 0.007903225806451614,
+      "std": 0.03896388306037477
+    },
+    "material_ratio_Food": {
+      "mean": 7.739459669679897e-06,
+      "std": 0.00012163515645862673
+    },
+    "material_ratio_Fur": {
+      "mean": 3.689385480181582e-05,
+      "std": 0.0001303259995838952
+    },
+    "material_ratio_Glass": {
+      "mean": 0.1643184116188872,
+      "std": 0.26880898654058094
+    },
+    "material_ratio_Granite": {
+      "mean": 0.0014629719375731682,
+      "std": 0.004466028818176242
+    },
+    "material_ratio_Leather": {
+      "mean": 0.039728680542261585,
+      "std": 0.0723032003425061
+    },
+    "material_ratio_Metal": {
+      "mean": 0.04011139874472599,
+      "std": 0.10770713701330135
+    },
+    "material_ratio_Paper": {
+      "mean": 0.03950550523463873,
+      "std": 0.16473883013994917
+    },
+    "material_ratio_Plastic": {
+      "mean": 0.047745148469890315,
+      "std": 0.10402132811945382
+    },
+    "material_ratio_Rubber": {
+      "mean": 8.201202580645161e-05,
+      "std": 0.00019160532149132205
+    },
+    "material_ratio_Stone": {
+      "mean": 0.0006405973259054022,
+      "std": 0.00927306263492939
+    },
+    "material_ratio_Wallpaper": {
+      "mean": 0.00012734218226698147,
+      "std": 0.0005571925808403339
+    },
+    "material_ratio_Wood": {
+      "mean": 0.3648162974086202,
+      "std": 0.4049195776495524
+    },
+    "material_density_mean": {
+      "mean": 1.4306420059846436,
+      "std": 0.6643426834703846
+    },
+    "material_friction_coeff_mean": {
+      "mean": 0.5162361791151702,
+      "std": 0.11568376868052822
+    },
+    "has_material_prior": {
+      "mean": 0.9939516129032258,
+      "std": 0.07753582468963473
+    }
+  },
+  "class_to_idx": {
+    "__unknown__": 0,
+    "4Shelves": 1,
+    "Backpack": 2,
+    "Bed": 3,
+    "Bench": 4,
+    "Book": 5,
+    "Bookcase": 6,
+    "Bottle": 7,
+    "Bowl": 8,
+    "Cabinet": 9,
+    "Candle": 10,
+    "Chair": 11,
+    "ChestOfDrawers": 12,
+    "Couch": 13,
+    "Curtain": 14,
+    "Desk": 15,
+    "Door": 16,
+    "DraftingTable": 17,
+    "DresserWithMirror": 18,
+    "Faucet": 19,
+    "Fireplace": 20,
+    "FoodItem": 21,
+    "Hat": 22,
+    "LDesk": 23,
+    "Lamp": 24,
+    "LightSwitch": 25,
+    "MediaStorage": 26,
+    "Microwave": 27,
+    "Nightstand": 28,
+    "OutdoorTable": 29,
+    "Oven": 30,
+    "Painting": 31,
+    "Piano": 32,
+    "Picture": 33,
+    "Plate": 34,
+    "PottedPlant": 35,
+    "Rack": 36,
+    "Refrigerator": 37,
+    "RoundTable": 38,
+    "Sink": 39,
+    "Stool": 40,
+    "TV": 41,
+    "Table": 42,
+    "Toilet": 43,
+    "ToiletPaper": 44,
+    "Vase": 45,
+    "WallArt": 46,
+    "Window": 47,
+    "_GeoAutotagEvalSet": 48,
+    "_PilotStudyModels": 49,
+    "_StanfordSceneDBModels": 50
+  },
+  "material_names": [
+    "Brick",
+    "Cardboard",
+    "Carpet",
+    "Ceramic",
+    "Concrete",
+    "Fabric",
+    "Foliage",
+    "Food",
+    "Fur",
+    "Glass",
+    "Granite",
+    "Leather",
+    "Metal",
+    "Paper",
+    "Plastic",
+    "Rubber",
+    "Stone",
+    "Wallpaper",
+    "Wood"
+  ],
+  "notes": "Aux features are train-normalized material ratios plus material density/friction priors. staticFrictionForce is excluded to avoid target leakage."
+}

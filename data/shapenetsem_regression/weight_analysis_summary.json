@@ -1,0 +1,24 @@
+{
+  "retained_count": 4125,
+  "removed_count": 0,
+  "split_counts": {
+    "test": 824,
+    "train": 2480,
+    "val": 821
+  },
+  "split_fractions": {
+    "test": 0.19975757575757574,
+    "train": 0.6012121212121212,
+    "val": 0.19903030303030303
+  },
+  "has_material_prior_count": 4101,
+  "class_count_train": 50,
+  "weight_log_fence": {
+    "q1": 2.412949055085544,
+    "q3": 3.8649292511295417,
+    "iqr": 1.4519801960439978,
+    "lo": -1.9429915330464493,
+    "hi": 8.220869839261535
+  },
+  "target": "weight"
+}
